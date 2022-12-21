@@ -1,0 +1,24 @@
+package com.wqa.compiler.grammar;
+import com.wqa.compiler.lexical.Identifier;
+import com.wqa.compiler.lexical.Lexer;
+import com.wqa.compiler.lexical.Token;
+
+import java.io.IOException;
+import java.util.Stack;
+
+public class Parser_ {
+
+    Stack<Integer> state_stack;
+    Stack<Character> sign_stack;
+    public static String error_str="";
+    public static String process_str="";
+    char buffer[];
+    public Set_ lr1;
+    int size=0;
+    public static boolean is_acc;
+    public Parser_(String grammar_file)
+    void write_stack(int x, String temp) throws IOException//输出状态栈和符号栈的情况
+    public void printBlank(String temp,int num)
+    public String convert(Token t)
+    public void judge()
+}
